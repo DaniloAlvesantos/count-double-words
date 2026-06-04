@@ -1,0 +1,25 @@
+{
+  "name": "count-double-words",
+  "version": "1.0.0",
+  "description": "Count double words in a text file",
+  "main": "src/cli.js",
+  "scripts": {
+    "help": "node src/cli.js --help"
+  },
+  "keywords": [],
+  "author": "DaniloAlvesantos",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.2.2",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^15.0.0",
+    "count-double-words": "link:"
+  }
+}
